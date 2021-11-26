@@ -139,22 +139,22 @@ public class Annadir_producto extends javax.swing.JFrame {
         jlblPrecio.setFont(new java.awt.Font("Gotham", 0, 20)); // NOI18N
         jlblPrecio.setForeground(new java.awt.Color(112, 53, 0));
         jlblPrecio.setText("Precio Total");
-        jPanel1.add(jlblPrecio, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 200, 120, -1));
+        jPanel1.add(jlblPrecio, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 200, 120, -1));
 
         jlblCantidad.setFont(new java.awt.Font("Gotham", 0, 20)); // NOI18N
         jlblCantidad.setForeground(new java.awt.Color(112, 53, 0));
         jlblCantidad.setText("Unidades");
-        jPanel1.add(jlblCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 200, 110, -1));
+        jPanel1.add(jlblCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 200, 110, -1));
 
         jlblFIngreso1.setFont(new java.awt.Font("Gotham", 0, 20)); // NOI18N
         jlblFIngreso1.setForeground(new java.awt.Color(112, 53, 0));
         jlblFIngreso1.setText("Precio Unitario");
-        jPanel1.add(jlblFIngreso1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 330, 150, -1));
+        jPanel1.add(jlblFIngreso1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 330, 150, -1));
 
         jlblCategoria.setFont(new java.awt.Font("Gotham", 0, 20)); // NOI18N
         jlblCategoria.setForeground(new java.awt.Color(112, 53, 0));
         jlblCategoria.setText("Categoría");
-        jPanel1.add(jlblCategoria, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 360, 130, 30));
+        jPanel1.add(jlblCategoria, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 360, 130, 30));
 
         jtxtPrecioUnidad.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.add(jtxtPrecioUnidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 330, 170, 30));
@@ -196,7 +196,7 @@ public class Annadir_producto extends javax.swing.JFrame {
         jlblTipoR.setFont(new java.awt.Font("Gotham", 0, 20)); // NOI18N
         jlblTipoR.setForeground(new java.awt.Color(112, 53, 0));
         jlblTipoR.setText("Tipo de Prenda");
-        jPanel1.add(jlblTipoR, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 320, -1, -1));
+        jPanel1.add(jlblTipoR, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 320, -1, -1));
 
         jcbCategoria.setBackground(new java.awt.Color(255, 255, 255));
         jcbCategoria.setFont(new java.awt.Font("Gotham", 0, 18)); // NOI18N
@@ -248,7 +248,7 @@ public class Annadir_producto extends javax.swing.JFrame {
         jlblPrecioUnidad.setFont(new java.awt.Font("Gotham", 0, 20)); // NOI18N
         jlblPrecioUnidad.setForeground(new java.awt.Color(112, 53, 0));
         jlblPrecioUnidad.setText("Fecha de Ingreso");
-        jPanel1.add(jlblPrecioUnidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 270, 210, -1));
+        jPanel1.add(jlblPrecioUnidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, 210, -1));
 
         jlblCheck.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/prendaAExito.jpg"))); // NOI18N
         jPanel1.add(jlblCheck, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 520, 220, 80));
