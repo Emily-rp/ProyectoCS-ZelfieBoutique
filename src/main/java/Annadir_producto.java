@@ -255,6 +255,8 @@ public class Annadir_producto extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(112, 53, 0));
         jLabel2.setText("INVENTARIO");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 100, 330, -1));
+
+        jlblImagenFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Inventario.jpg"))); // NOI18N
         jPanel1.add(jlblImagenFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 650));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 650));

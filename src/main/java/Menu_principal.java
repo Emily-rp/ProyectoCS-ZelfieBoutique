@@ -19,6 +19,7 @@ public class Menu_principal extends javax.swing.JFrame {
         jMenuItem11 = new javax.swing.JMenuItem();
         jMenuItem13 = new javax.swing.JMenuItem();
         jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
         JMBBarraMenu = new javax.swing.JMenuBar();
         JMArchivo = new javax.swing.JMenu();
         jmiGuardar = new javax.swing.JMenuItem();
@@ -56,15 +57,24 @@ public class Menu_principal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setExtendedState(6);
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Inventario.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1000, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(150, 150, 150)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 668, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(182, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 650, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(111, 111, 111)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 342, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(197, Short.MAX_VALUE))
         );
 
         JMBBarraMenu.setBackground(new java.awt.Color(112, 53, 0));
@@ -283,6 +293,7 @@ public class Menu_principal extends javax.swing.JFrame {
     private javax.swing.JMenu JMCliente;
     private javax.swing.JMenu JMTienda;
     private javax.swing.JMenu JMVentas;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem11;
