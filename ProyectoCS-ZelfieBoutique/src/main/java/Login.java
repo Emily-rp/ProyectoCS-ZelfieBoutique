@@ -103,8 +103,6 @@ public class Login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jtxtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(588, 330, 330, 30));
-
-        jlblImagen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Login.jpg"))); // NOI18N
         jPanel1.add(jlblImagen, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 650));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

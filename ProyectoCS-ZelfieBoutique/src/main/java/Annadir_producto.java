@@ -166,7 +166,6 @@ public class Annadir_producto extends javax.swing.JFrame {
         jPanel1.add(jtxtIngreso, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 270, 170, 30));
 
         jtbnAtras.setBackground(new java.awt.Color(255, 255, 255));
-        jtbnAtras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/HomeBoton.png"))); // NOI18N
         jtbnAtras.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jtbnAtrasActionPerformed(evt);
@@ -249,8 +248,6 @@ public class Annadir_producto extends javax.swing.JFrame {
         jlblPrecioUnidad.setForeground(new java.awt.Color(112, 53, 0));
         jlblPrecioUnidad.setText("Fecha de Ingreso");
         jPanel1.add(jlblPrecioUnidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, 210, -1));
-
-        jlblCheck.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/prendaAExito.jpg"))); // NOI18N
         jPanel1.add(jlblCheck, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 520, 220, 80));
 
         jLabel2.setBackground(new java.awt.Color(112, 53, 0));
@@ -258,8 +255,6 @@ public class Annadir_producto extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(112, 53, 0));
         jLabel2.setText("INVENTARIO");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 100, 330, -1));
-
-        jlblImagenFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Inventario.jpg"))); // NOI18N
         jPanel1.add(jlblImagenFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 650));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 650));
